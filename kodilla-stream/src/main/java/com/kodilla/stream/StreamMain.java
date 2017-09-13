@@ -2,12 +2,10 @@ package com.kodilla.stream;
 
 
 import com.kodilla.stream.beautifier.PoemBeautifier;
+import com.kodilla.stream.iterate.NumbersGenerator;
 import com.kodilla.stream.lambda.ExpressionExecutor;
 import com.kodilla.stream.reference.FunctionalCalculator;
-import com.sun.javafx.util.Utils;
 
-
-import static jdk.nashorn.internal.objects.NativeString.split;
 import static jdk.nashorn.internal.objects.NativeString.toLowerCase;
 import static jdk.nashorn.internal.objects.NativeString.toUpperCase;
 
@@ -35,5 +33,7 @@ public class StreamMain {
         poemBeautifier.beautify("TRZECI TEKST DO ZMIANY",(text)-> toLowerCase(text));
         poemBeautifier.beautify("czwarty tekst do zmiany",(text)->text + "-" + text);
 
+        System.out.println("Using Stream to generate even numbers from 1 to 20");
+        NumbersGenerator.generateEven(20);
     }
 }
