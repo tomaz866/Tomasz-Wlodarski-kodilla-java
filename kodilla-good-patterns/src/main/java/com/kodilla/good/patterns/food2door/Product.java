@@ -22,6 +22,6 @@ public class Product {
         return "Dostawa { " +
                 "produkt = '" + name + '\'' +
                 ", ilość = " + quantity +
-                ' }';
+                '}';
     }
 }
