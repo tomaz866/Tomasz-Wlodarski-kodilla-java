@@ -7,7 +7,7 @@ public class SearchFrom implements Search {
         System.out.println("Loty z - " + town);
 
         FlyList.getList().stream()
-                .filter(s -> s.equals(town))
+                .filter(s -> s.check(town))
                 .forEach(System.out::println);
     }
 }

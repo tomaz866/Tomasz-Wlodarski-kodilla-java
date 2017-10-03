@@ -33,18 +33,29 @@ public class Fly {
                 " }";
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if(from == o) {
+    public boolean check (String town) {
+        if(from == town) {
             return true;
         }
-        if(via == o) {
+        if(via == town) {
             return true;
         }
-        if(to == o) {
+        if(to == town) {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Fly fly = (Fly) o;
+
+        if (!from.equals(fly.from)) return false;
+        if (!via.equals(fly.via)) return false;
+        return to.equals(fly.to);
     }
 
     @Override

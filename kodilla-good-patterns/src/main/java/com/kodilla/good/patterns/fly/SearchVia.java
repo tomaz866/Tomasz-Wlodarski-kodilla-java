@@ -7,7 +7,7 @@ public class SearchVia implements Search {
         System.out.println("Loty przez - " + town);
 
         FlyList.getList().stream()
-                .filter(s -> s.equals(town))
+                .filter(s -> s.check(town))
                 .forEach(System.out::println);
     }
 }

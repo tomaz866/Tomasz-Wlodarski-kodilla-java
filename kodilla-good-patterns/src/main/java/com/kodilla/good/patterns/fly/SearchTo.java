@@ -7,7 +7,7 @@ public class SearchTo implements Search {
         System.out.println("Loty do - " + town);
 
         FlyList.getList().stream()
-                .filter(s -> s.equals(town))
+                .filter(s -> s.check(town))
                 .forEach(System.out::println);
     }
 }
