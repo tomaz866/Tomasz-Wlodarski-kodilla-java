@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.jdbc.DbManagerTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-10-24T21:24:03" hostname="DESKTOP-2BIEN4Q" time="2.359">
+  <properties/>
+  <testcase name="testSelectUsers" classname="com.kodilla.jdbc.DbManagerTestSuite" time="2.312"/>
+  <testcase name="testConnect" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.016"/>
+  <testcase name="testSelectUsersAndPosts" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.031"/>
+  <system-out><![CDATA[1, John, Smith
+2, Zachary, Lee
+3, Stephanie, Kovalsky
+4, Thomas, Landgren
+5, John, Thomson
+6, Zachary, Lee
+7, Stephanie, Kovalsky
+8, Thomas, Landgren
+9, John, Thomson
+John, Smith
+Zachary, Lee
+Thomas, Landgren
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

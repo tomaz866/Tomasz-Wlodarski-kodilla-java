@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-10-24T21:24:29" hostname="DESKTOP-2BIEN4Q" time="0.063">
+  <properties/>
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.063"/>
+  <system-out><![CDATA[Library [ZbiĂłr 1]
+Book{title='C', author='C', publicationDate=1988-12-12}
+Book{title='B', author='B', publicationDate=1987-12-12}
+Book{title='D', author='D', publicationDate=1989-12-12}
+Book{title='A', author='A', publicationDate=1986-12-12}
+
+Library [ZbiĂłr 2]
+Book{title='C', author='C', publicationDate=1988-12-12}
+Book{title='B', author='B', publicationDate=1987-12-12}
+Book{title='D', author='D', publicationDate=1989-12-12}
+Book{title='A', author='A', publicationDate=1986-12-12}
+
+Library [ZbiĂłr 3]
+Book{title='C', author='C', publicationDate=1988-12-12}
+Book{title='B', author='B', publicationDate=1987-12-12}
+Book{title='D', author='D', publicationDate=1989-12-12}
+Book{title='A', author='A', publicationDate=1986-12-12}
+Book{title='E', author='E', publicationDate=1980-12-12}
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.singleton.LoggerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-10-24T21:24:29" hostname="DESKTOP-2BIEN4Q" time="0.0">
+  <properties/>
+  <testcase name="testGetLastLog" classname="com.kodilla.patterns.singleton.LoggerTestSuite" time="0.0"/>
+  <system-out><![CDATA[Log: [tomaz]
+Last log: tomaz
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

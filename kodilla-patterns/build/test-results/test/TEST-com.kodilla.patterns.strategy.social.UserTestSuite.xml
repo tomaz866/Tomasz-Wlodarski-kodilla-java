@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-10-24T21:24:29" hostname="DESKTOP-2BIEN4Q" time="0.047">
+  <properties/>
+  <testcase name="testDefaultSharingStrategies" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.031"/>
+  <testcase name="testIndividualSharingStrategy" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.0"/>
+  <system-out><![CDATA[Tomasz used Facebook
+Ada used Twitter
+Edwart used Snapchat
+Tomasz used Facebook
+Tomasz use now Twitter
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
