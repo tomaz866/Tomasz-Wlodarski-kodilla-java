@@ -15,7 +15,7 @@ import java.util.List;
 public final class Facade {
 
     @Autowired
-    private CompanyDao companyDao;
+    public CompanyDao companyDao;
 
     @Autowired
     private EmployeeDao employeeDao;
@@ -24,6 +24,7 @@ public final class Facade {
 
     public List<Company> showCompanyWith(String name)  {
         LOGGER.info("Start searching company with name like : " + name);
+        name = "%" + name + "%";
         List<Company> list = companyDao.retrieveCompanyWith(name);
         LOGGER.info("Stop searching");
 
@@ -32,6 +33,7 @@ public final class Facade {
 
     public List<Employee> showEmployeeWith(String name)  {
         LOGGER.info("Start searching employees with name like : " + name);
+        name = "%" + name + "%";
         List<Employee> list = employeeDao.retrieveEmployeesWith(name);
         LOGGER.info("Stop searching");
 
