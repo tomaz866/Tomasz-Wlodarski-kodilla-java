@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ kodilla-testing2.iml" filepath="$PROJECT_DIR$/.idea/modules/ kodilla-testing2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ kodilla-testing2/_kodilla-testing2.iml" filepath="$PROJECT_DIR$/.idea/modules/ kodilla-testing2/_kodilla-testing2.iml" group=" kodilla-testing2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ kodilla-testing2/_kodilla-testing2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ kodilla-testing2/_kodilla-testing2_main.iml" group=" kodilla-testing2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ kodilla-testing2/_kodilla-testing2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ kodilla-testing2/_kodilla-testing2_test.iml" group=" kodilla-testing2" />
       <module fileurl="file://$PROJECT_DIR$/kodilla-course.iml" filepath="$PROJECT_DIR$/kodilla-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course-kodilla-spring-intro.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course-kodilla-spring-intro.iml" group="kodilla-spring-intro" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course-kodilla-spring-intro_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring-intro/kodilla-course-kodilla-spring-intro_main.iml" group="kodilla-spring-intro" />

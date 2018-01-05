@@ -5,6 +5,8 @@
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="_kodilla-testing2_main" target="1.8" />
+      <module name="_kodilla-testing2_test" target="1.8" />
       <module name="kodilla-course-kodilla-spring-intro_main" target="1.8" />
       <module name="kodilla-course-kodilla-spring-intro_test" target="1.8" />
       <module name="kodilla-course_main" target="1.8" />
