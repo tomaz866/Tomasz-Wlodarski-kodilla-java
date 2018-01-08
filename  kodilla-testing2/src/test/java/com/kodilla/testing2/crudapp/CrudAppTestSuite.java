@@ -93,12 +93,16 @@ public class CrudAppTestSuite {
                 .filter(aHref -> aHref.findElements(By.xpath(".//span[@title= \"Kodilla Application\"]")).size() > 0)
                 .forEach(aHref -> aHref.click());
 
-        Thread.sleep(2000);
+        driver.navigate().refresh();
+        Thread.sleep(5000);
 
-        result = driverTrello.findElements(By.xpath("//span")).stream()
+        result = driverTrello.findElements(By.xpath("//span[contains(@class, \"list-card-title\")]")).stream()
                 .filter(theSpan -> theSpan.getText().contains(taskName))
                 .collect(Collectors.toList())
-                .size() > 0;
+                .size() > 0 ;
+
+        driver.navigate().refresh();
+        Thread.sleep(5000);
 
         driverTrello.close();
 
