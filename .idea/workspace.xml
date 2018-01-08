@@ -90,7 +90,7 @@
       <file leaf-file-name="GoogleTestingApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="0">
               <caret line="16" column="40" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="39" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="16" selection-end-column="39" />
+              <caret line="16" column="39" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +114,8 @@
       <file leaf-file-name="CrudAppTestingApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="391">
+              <caret line="23" column="54" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,13 +123,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacebookTestingApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FacebookTestingApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+            <state relative-caret-position="102">
+              <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrudAppTestSuite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +152,7 @@
       <file leaf-file-name="WebDriverConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="374">
               <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -2992,7 +3006,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/PineappleDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizza/BaconDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/pizza/PizzaOrderTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2/build.gradle" />
@@ -3043,6 +3056,7 @@
         <option value="$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" />
         <option value="$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java" />
         <option value="$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" />
+        <option value="$PROJECT_DIR$/ kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java" />
       </list>
     </option>
   </component>
@@ -3074,7 +3088,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3098,24 +3113,15 @@
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=" kodilla-testing2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=" kodilla-testing2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kodilla-course" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=" kodilla-testing2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testing2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -3125,9 +3131,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3161,7 +3166,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FacebookTestingApp">
+  <component name="RunManager" selected="JUnit.CrudAppTestSuite.shouldCreateTrelloCard">
+    <configuration name="CrudAppTestSuite.deleteTestTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.crudapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="_kodilla-testing2_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing2.crudapp" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.crudapp.CrudAppTestSuite" />
+      <option name="METHOD_NAME" value="deleteTestTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/ kodilla-testing2" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.crudapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="_kodilla-testing2_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing2.crudapp" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.crudapp.CrudAppTestSuite" />
+      <option name="METHOD_NAME" value="shouldCreateTrelloCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/ kodilla-testing2" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="CrudAppTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -3219,25 +3274,6 @@
       <module name="_kodilla-testing2_main" />
       <envs />
     </configuration>
-    <configuration name="GoogleTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.testing2.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.google.GoogleTestingApp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="_kodilla-testing2_main" />
-      <envs />
-    </configuration>
     <configuration name="KodillaCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.KodillaCourseApplication" />
@@ -3272,31 +3308,6 @@
       <option name="SHOW_IN_DASHBOARD" value="true" />
       <module name="kodilla-spring-web_main" />
       <envs />
-    </configuration>
-    <configuration name="SimpleInvoiceTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.stream.invoice.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="kodilla-stream_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.stream.invoice.simple" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.invoice.simple.SimpleInvoiceTestSuite" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/kodilla-stream" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -3391,19 +3402,19 @@
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SimpleInvoiceTestSuite" />
-      <item index="6" class="java.lang.String" itemvalue="Application.GoogleTestingApp" />
-      <item index="7" class="java.lang.String" itemvalue="Application.EBayTestingApp" />
-      <item index="8" class="java.lang.String" itemvalue="Application.CrudAppTestingApp" />
-      <item index="9" class="java.lang.String" itemvalue="Application.FacebookTestingApp" />
+      <item index="5" class="java.lang.String" itemvalue="Application.EBayTestingApp" />
+      <item index="6" class="java.lang.String" itemvalue="Application.CrudAppTestingApp" />
+      <item index="7" class="java.lang.String" itemvalue="Application.FacebookTestingApp" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.CrudAppTestSuite.shouldCreateTrelloCard" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.CrudAppTestSuite.deleteTestTask" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FacebookTestingApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CrudAppTestingApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EBayTestingApp" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GoogleTestingApp" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SimpleInvoiceTestSuite" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CrudAppTestSuite.shouldCreateTrelloCard" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CrudAppTestSuite.deleteTestTask" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FacebookTestingApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CrudAppTestingApp" />
+        <item index="4" class="java.lang.String" itemvalue="Application.EBayTestingApp" />
       </list>
     </recent_temporary>
   </component>
@@ -3505,48 +3516,49 @@
       <workItem from="1515148152531" duration="548000" />
       <workItem from="1515158736243" duration="2219000" />
       <workItem from="1515182903457" duration="4311000" />
-      <workItem from="1515242212480" duration="3904000" />
+      <workItem from="1515242212480" duration="4587000" />
+      <workItem from="1515337979776" duration="172000" />
+      <workItem from="1515342679005" duration="20775000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 02m 19s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_deleteTestTask - 2018.01.08 at 10h 17m 42s.xml">
+      <configuration name="CrudAppTestSuite.deleteTestTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 03m 32s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_deleteTestTask - 2018.01.08 at 10h 19m 47s.xml">
+      <configuration name="CrudAppTestSuite.deleteTestTask" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 05m 06s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.07 at 22h 15m 13s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 07m 00s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.08 at 09h 50m 34s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 08m 29s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.08 at 10h 00m 22s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 10m 05s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.08 at 10h 05m 29s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 12m 31s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.08 at 10h 25m 14s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 15m 50s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.08 at 10h 28m 05s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 17m 58s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.08 at 10h 32m 36s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SimpleInvoiceTestSuite - 2018.01.05 at 11h 21m 58s.xml">
-      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
+    <history-entry file="CrudAppTestSuite_shouldCreateTrelloCard - 2018.01.08 at 10h 36m 00s.xml">
+      <configuration name="CrudAppTestSuite.shouldCreateTrelloCard" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="433939000" />
+    <option name="totallyTimeSpent" value="455569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
@@ -3568,7 +3580,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29605263" sideWeight="0.48789713" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.413767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42738277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3601,34 +3613,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/homework/Mentor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/homework/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/homework/MentorsCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/observer/forum/ForumUserTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -3668,13 +3652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -3748,13 +3725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/libraryb/BookSignature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -3790,24 +3760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdaptee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="5" column="71" lean-forward="true" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -3843,20 +3799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredPostTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -3925,7 +3867,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="374">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3935,7 +3877,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="0">
           <caret line="16" column="40" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3946,7 +3888,7 @@
     <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="16" selection-end-column="39" />
+          <caret line="16" column="39" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3955,20 +3897,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="391">
+          <caret line="23" column="54" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="23" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclasifier/MedianAdaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredPostTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1508753046805" expanded="true" signature="602:621" ph="SELECT * FRO... USERS" />
+            <marker date="1508753046805" expanded="true" signature="1298:1499" ph="SELECT U.FIR... POST" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/main/java/com/kodilla/jdbc/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        <state relative-caret-position="102">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ kodilla-testing2/src/test/java/com/kodilla/testing2/crudapp/CrudAppTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
           </folding>
         </state>
       </provider>
