@@ -87,13 +87,12 @@ public class CrudAppTestSuite {
         driverTrello.findElement(By.id("password")).sendKeys("tomasz1986");
         driverTrello.findElement(By.id("login")).submit();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         driverTrello.findElements(By.xpath("//a[@class= \"board-tile\"]")).stream()
                 .filter(aHref -> aHref.findElements(By.xpath(".//span[@title= \"Kodilla Application\"]")).size() > 0)
                 .forEach(aHref -> aHref.click());
 
-        driver.navigate().refresh();
         Thread.sleep(5000);
 
         result = driverTrello.findElements(By.xpath("//span[contains(@class, \"list-card-title\")]")).stream()
@@ -101,7 +100,6 @@ public class CrudAppTestSuite {
                 .collect(Collectors.toList())
                 .size() > 0 ;
 
-        driver.navigate().refresh();
         Thread.sleep(5000);
 
         driverTrello.close();
